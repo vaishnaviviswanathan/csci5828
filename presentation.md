@@ -1,4 +1,4 @@
-####**PROGRAMMING PARADIGMS**
+####**PRESENTATION 1 : PROGRAMMING PARADIGMS**
 				
 ###**Team : Ashik Imran Akbar Basha, Harini Iyer, Vaishnavi Viswanathan**				
 				
