@@ -1,6 +1,6 @@
-####**PRESENTATION 1 : PROGRAMMING PARADIGMS**
+####**PROGRAMMING PARADIGMS**
 				
-#####**Team : Ashik Imran Akbar Basha, Harini Iyer, Vaishnavi Viswanathan**				
+###**Team : Ashik Imran Akbar Basha, Harini Iyer, Vaishnavi Viswanathan**				
 				
 <b>What is a Programming Paradigm?</b>
 
@@ -78,12 +78,16 @@ Logic programming works well in exhaustive searches since it involves automatic 
 </p>
 
 
-<p>Some languages which can be programmed in Logical Paradigm:</p>
-* Prolog
-* Datalog
-* ROOP
-* ASP
+Some languages which can be programmed in Logical Paradigm:
 
+> Prolog
+
+> ASP
+
+>Datalog
+
+>ROOP
+ 
 <p>
 Algorithms in logic programming are a combination of logic(determines solutions) and control
 (determines alternate ways of execution)
@@ -114,18 +118,18 @@ In Imperative Programming, the programmer knows the formula or the steps to be f
 solve a problem. He instructs the program to follow those steps to get what he wants in return. 
 </p>
 
-<p>Languages :</p>
-* Imperative
-* Declarative
-* Functional
-* Object-Oriented
-* Procedural
-*  Logic
-* Machine level languages
-* Fortran
-* ALGOL
-* COBOL
-* BASIC
+Languages :
+Machine level languages
+
+>Fortran
+
+>ALGOL
+
+>COBOL
+
+>BASIC
+
+>Pascal
 
 <p>
 <b>Example in Javascript to multiply elements of an array by 2</b>
@@ -164,17 +168,23 @@ from other programming paradigms.
 Some pure functional programming languages are :
 </p>
 
-* Haskell
-* Hope
-* Mercury
-* Miranda
+>Haskell
+
+>Hope
+
+>Mercury
+
+>Miranda
 
 Some impure functional programming languages are :
 
-* C#
-* Curve
-* Groovy
-* Erlang
+>C#
+
+>Curve
+
+>Groovy
+
+>Erlang
  
 <b>Example - python</b>
 
@@ -221,13 +231,15 @@ a real world problem.
 </p>
 
 
-<p>Some programming languages that use Procedural Paradigm are:</p>
+Programming Languages that use Procedural Paradigm are:
 
-* Go
-* Pascal
-* Bliss
-* Blue
+<p>Go</p>
 
+<p>Pascal</p>
+
+<p>Bliss </p>
+
+<p>Blue</p>
 
 <b>Example in Pascal - Calculating Fibonacci series:</b>
 
@@ -272,7 +284,7 @@ In Object Oriented Programming, all the behavior that we want a program to displ
 
 <p>4.Ruby</p>
 
-<p><b>Example program - python to print time</b></p>
+<p><b>Example program - python to print time</p>
 <pre><code>
 def print_time(time) :
     print '(%.2d:%.2d:%.2d)' %(time.hour, time.minute, time.second)
@@ -296,7 +308,7 @@ print_time(time)
 </pre></code>
 
 
-<p><b>Object - oriented sample program in JAVA</b><p>
+<b>Object - oriented sample program in JAVA </b>
 
 <pre><code>
 REDUCING THE RATIONAL NUMBERS AND TO PERFORMS ARITHMETIC OPERATIONS WITH TWO RATIONAL NUMBERS
@@ -499,8 +511,8 @@ break;
 </pre></code>
 
 
-<p> Some of the most important concepts in OOP are : </p>
-<p><b>(I) Classes:</b></p>
+<p><b> Some of the most important concepts in OOP are : </b></p>
+<b>(I) Classes: </b>
 <p>
 Classes are the key component in OOP. It is a blueprint for the object. Classes describe what an object should be like. They have three fundamental aspects : 
 </p>
@@ -536,15 +548,15 @@ return (length*breadth);
 </pre></code>
 
  
-<p><b>(II) Abstraction:</b></p>
+<p>(II) Abstraction:</p>
 
 <p>Abstraction involves managing complexity in computer systems. It enables the user to interact with a class or a function at a higher level and suppresses unnecessary details. Essentially, the user has an interface with which he interacts with the elements and is not concerned with representation and implementation details below that interface.</p>
 
-<b> Example:</b>
+<b>Example:</b>
 
-<p>Consider the Area method in the previous example. We can just call Rectangle.area and do not need to know the exact formula for the area. Area acts as a black box that takes in the length and the breadth and outputs the rectangle area.</p>
+<p>Consider the Area method in the previous example. We can just call the method Rectangle.Area and do not need to know the exact formula for the area. Area acts as a black box that takes in the length and the breadth and outputs the rectangle area.</p>
 
-<p><b>(III) Encapsulation:</b></p>
+<p>(III) Encapsulation:</p>
 <p>Encapsulation enables combining data and functions into a single entity. Additionally, it involves access restriction to the inner working of the class. It is roughly similar to abstraction in information hiding. It reduces dependencies and collisions between pieces of code.</p>
 
 <b>Example:</b>
@@ -553,21 +565,39 @@ int x,y
 d = distance(x,y)
 </pre></code>
 
-<p><b>(IV) Inheritance:</b></p>
-<p>Inheritance is a means of avoiding repetition when we have several classes sharing similar behaviors. Suppose we have class p. We want to create a class c which has all the behaviors of class p and some additional ones. Then, p is called the parent class and c is called the child class. Inheritance is generally defined by “is a” relationship. A Mercedes Class inherits from a Car Class because a Mercedes is a Car. </p>
+<p> In the above example, the distance method calculates the Euclidean distance of the point (x,y) from the origin. 
+However, the details of the distance function are encapsulated.</p>
 
-<p><b>(V) Polymorphism:</b></p>
+<p><b> (IV) Inheritance:</b></p>
+<p>Inheritance is a means of avoiding repetition when we have several classes sharing similar behaviors. Suppose we have class p. We want to create a class c which has all the behaviors of class p and some additional ones. Then, p is called the parent class and c is called the child class. Inheritance is generally defined by “is a” relationship. A Mercedes Class inherits from a Car Class because a Mercedes is a Car. Suppose we have a class Person with name and phone number as attributes. We want to create a new class Student with name, phone number and Student ID. Here, we can implement it such that Student inherits from Person since name and phone number are shared. Then, Student ID can be added. Person is the parent class and Student is the child class.</p>
+
+<p>(V) Polymorphism:</p>
 <p>Polymorphism implies “many forms”. It is a feature by which a single interface can be used for different purposes. Essentially, it lets us do the right thing at the right time. It is of two types: </p> 
 
 >1.Compile time polymorphism
 
 >2.Run time polymorphism
  
-<p><b>Compile time polymorphism:</b></p>
+<p>Compile time polymorphism:</p>
 <p>It involves early binding, static binding or static linking. The object is bound to the function call at compile time. It is implemented through function and operator overloading.</p>
  
-<p><b>Run time polymorphism:</b></p>
+<p>Run time polymorphism:</p>
 <p>It involves dynamic binding or late binding. Objects of the derived class are treated as if they are the objects of base class. The function and the object are not linked till run time. It is achieved through virtual functions.</p>
+
+<b>Example Snippet in Python:</b>
+<pre><code>
+n1 = 5
+n2 = 3
+t1 = Time(7,43)
+t2 = Time(7,41)
+t3 = Time(7,37)
+totalNumber = sum([n1,n2])
+totalTime = sum([t1,t2,t3])
+</pre></code>
+
+<p>In the above example, totalNumber returns 8 since sum performs arithmetic addition. However, totalTime returns
+23:01:00 since sum carries out time addition. The sum function is polymorphic here.</p>
+
 
 <p> <b> References </b> </p>
 >1.https://en.wikipedia.org/wiki/Paradigm
@@ -608,4 +638,5 @@ d = distance(x,y)
 
 >19.Programming with C++ by Jude Miranda, Neebal Technologies
 
+>20.Think Python by Allen B. Downey, O' Reilly
 
