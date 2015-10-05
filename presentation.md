@@ -19,14 +19,14 @@ Some of the programming paradigms which were developed over time are,
 * Object-Oriented
 * Procedural
 *  Logic
-
+ 
 <p>
 There are many programming languages which supports either a single paradigm 
 or multiple paradigms.In this presentation we discuss about the most used paradigms;
 Logical,Imperative,Functional,Procedural,Object-Oriented. 
 </p>
 
-<p style="text-align:center;font-weight:bold">HISTORY</p>
+<p style="text-align:center"><b>HISTORY</b></p>
 
 <p>
 The Machine code was the first programming paradigm which was introduced in
@@ -75,6 +75,7 @@ It is analogous to translation of problems in terms of digital logic.
 Logic programming works well in exhaustive searches since it involves automatic backtracking for problems
 </p>
 
+
 Some languages which can be programmed in Logical Paradigm:
 
 > Prolog
@@ -108,7 +109,7 @@ main :-
 </pre></code>
 						
 
-<p style="text-align:center;font-weight:bold">IMPERATIVE PROGRAMMING PARADIGM</p>
+<p style="text-align:center;font-weight:bold"><b>IMPERATIVE PROGRAMMING PARADIGM</b></p>
 			
 <p>
 In Imperative Programming, the programmer knows the formula or the steps to be followed to
@@ -128,8 +129,9 @@ Machine level languages
 
 >Pascal
 
+<p>
 <b>Example in Javascript to multiply elements of an array by 2</b>
-
+</p>
 
 <pre><code>
 var numbers = [1,2,3,4,5]
@@ -160,8 +162,9 @@ mixed with functional style.Impure functional programming languages can have som
 from other programming paradigms.
 </p>
 
-
+<p>
 Some pure functional programming languages are :
+</p>
 
 >Haskell
 
@@ -214,7 +217,7 @@ main()
 
 
 
-<p style="text-align:center;font-weight:bold">PROCEDUARAL PROGRAMMING PARADIGM</p>
+<p style="text-align:center;font-weight:bold"><b>PROCEDUARAL PROGRAMMING PARADIGM</b></p>
 
 <p>
 In Procedure Oriented Programming paradigm, the problems are solved by concentrating on how to do things.
