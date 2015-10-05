@@ -1,4 +1,4 @@
-####**PRESENTATION 1 : PROGRAMMING PARADIGMS**
+####**SOFTWARE ENGINEERING CSCI 5828 - PRESENTATION 1 : PROGRAMMING PARADIGMS**
 				
 #####**Team : Ashik Imran Akbar Basha, Harini Iyer, Vaishnavi Viswanathan**				
 				
