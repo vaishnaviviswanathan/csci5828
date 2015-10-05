@@ -308,7 +308,7 @@ print_time(time)
 </pre></code>
 
 
-<p>Object - oriented sample program in JAVA<p>
+<p><b>Object - oriented sample program in JAVA</b><p>
 
 <pre><code>
 REDUCING THE RATIONAL NUMBERS AND TO PERFORMS ARITHMETIC OPERATIONS WITH TWO RATIONAL NUMBERS
