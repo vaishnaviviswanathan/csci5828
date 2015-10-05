@@ -66,7 +66,7 @@ FUNCTIONAL and LOGICAL PROGRAMMING PARADIGMS fall under DECLARATIVE
 PROGRAMMING paradigm.
 <p>
 
-<p style="text-align:center;font-weight:bold">LOGICAL PROGRAMMING PARADIGM</p>
+<p style="text-align:center;font-weight:bold"><b>LOGICAL PROGRAMMING PARADIGM</b></p>
 			
 <p>								
 Logic programming is a programming paradigm based on formal logic. 
@@ -146,7 +146,7 @@ console.log(doubled) //=> [2,4,6,8,10]
 </code></pre>
 
 
-<p style="text-align:center;font-weight:bold">FUNCTIONAL PROGRAMMING PARADIGM</p>
+<p style="text-align:center;font-weight:bold"><b>FUNCTIONAL PROGRAMMING PARADIGM</b></p>
 
 <p>
 In this paradigm, a problem is divided into functions. 
@@ -229,15 +229,17 @@ a real world problem.
 </p>
 
 
+<p>
 Programming Languages that use Procedural Paradigm are:
-
->Go
-
->Pascal
-
->Bliss 
-
->Blue
+<br>
+1.Go
+<br>
+2.Pascal
+<br>
+3.Bliss 
+<br>
+4.Blue
+</p>
 
 <b>Example in Pascal - calculating Fibonacci series;</b>
 
@@ -265,316 +267,6 @@ end;
 begin
   WriteLn(fib(6));
 end.
-
 </code></pre>
 
-<b>Object Oriented Programming Paradigm</b>
-<p>
-In Object Oriented Programming, all the behavior that we want a program to display is present in under a Class.</p> 
-
-Some languages which can be programmed in Object Oriented Paradigm :
-
->Java
-
->Python
-
->C++
-
->Ruby
-
-<b>Example program - python to print time</p>
-<pre><code>
-def print_time(time) :
-    print '(%.2d:%.2d:%.2d)' %(time.hour, time.minute, time.second)
-
-
-class Time(object) :
-    '''
-    Time of the day
-    The attributes are hour, minute and seconds
-    '''
-
-time = Time()
-time.hour = raw_input("Enter the hour:")
-time.hour = int(time.hour)
-time.minute = raw_input("Enter minutes:")
-time.minute = int(time.minute)
-time.second = raw_input("Enter seconds:")
-time.second = int(time.second)
-print_time(time)
-
-</pre></code>
-
-
-<b>Object - oriented sample program in JAVA </b>
-
-                   EXAMPLE PROGRAM 
-<pre><code>
-REDUCING THE RATIONAL NUMBERS AND TO PERFORMS ARITHMETIC OPERATIONS WITH TWO RATIONAL NUMBERS
-
-import java.util.*;
-
-class operation
-{
-int a,b;
-
-/** CONSTRUCTOR TO INITIALISE THE VALUES PASSED TO THE CLASS VARIABLES
-@param x -numerator
-@param y -denominator
-*/
-
-public operation(int x,int y)
-{
-a=x;
-b=y;
-}
-
-/** DISPLAY METHOD IS TO DISPLAY THE ENTERED RATIONAL NUMBERS */
-public void display()
-{
-System.out.println("the rational number is "+a+"/"+b);
-}
-
-/** GCD METHOD IS TO FIND THE GCD OF THE TWO NUMBERS ENTERED 
-@param number1 -numerator
-@param number2 -denominator
-@return -returns the gcd of the two numbers
-
-*/
-
-public int gcd(int number1,int number2)
-{
-if(number2==0)
-{
-return number1;
-}
-return gcd(number2,number1%number2);
-}
-
-
-/** REDUCE METHOD IS TO REDUCE THE RATIONAL NUMBER TO ITS LEAST FORM
-@param number1 -numerator
-@param number2 -denominator
-@param c -it is the gcd of the two numbers(numerator and denominator)
-*/
-
-public void reduce(int number1,int number2,int c)
-{
-if(number2==0)
-System.out.println("\n invalid rational number");
-else
-{
-number1=number1/c;
-number2=number2/c;
-System.out.println("the reduced rational number is..."+number1+"/"+number2);
-}//else close
-}
-
-/** PERFORMS ADDITION OF TWO RATIONAL NUMBERS
-@param a numerator of the first rational number
-@param b denominator of the first rational number
-@param c numerator of the second rational number
-@param d denominator of the second rational number
-*/
-
-public void add(int a,int b,int c,int d)
-{
-int deno=b*d;
-int num=a*d+b*c;
-System.out.println("the rational number is "+num+"/"+deno);
-int cd1=gcd(num,deno);
-System.out.println("the gcd of the two numbers is"+cd1);
-reduce(num,deno,cd1);
-}
-
-/** PERFORMS SUBTRACTION OF TWO RATIONAL NUMBERS
-@param a numerator of the first rational number
-@param b denominator of the first rational number
-@param c numerator of the second rational number
-@param d denominator of the second rational number
-*/
-
-public void sub(int a,int b,int c,int d)
-{
-int deno=b*d;
-int num=(a*d)-(b*c);
-System.out.println("the rational number is "+num+"/"+deno);
-int cd1=gcd(num,deno);
-System.out.println("the gcd of the two numbers is"+cd1);
-reduce(num,deno,cd1);
-}
-
-/** PERFORMS MULTIPLICATION OF TWO RATIONAL NUMBERS
-@param a numerator of the first rational number
-@param b denominator of the first rational number
-@param c numerator of the second rational number
-@param d denominator of the second rational number
-*/
-
-public void mul(int a,int b,int c,int d)
-{
-int deno=(b*d);
-int num=(a*c);
-System.out.println("the rational number is "+num+"/"+deno);
-int cd1=gcd(num,deno);
-System.out.println("the gcd of the two numbers is"+cd1);
-reduce(num,deno,cd1);
-}
-
-/** PERFORMS DIVISION OF TWO RATIONAL NUMBERS
-@param a numerator of the first rational number
-@param b denominator of the first rational number
-@param c numerator of the second rational number
-@param d denominator of the second rational number
-*/
-
-public void div(int a,int b,int c,int d)
-{
-int deno=(b*c);
-int num=(a*d);
-System.out.println("the rational number is "+num+"/"+deno);
-int cd1=gcd(num,deno);
-System.out.println("the gcd of the two numbers is"+cd1);
-reduce(num,deno,cd1);
-}
-}
-
-public class Rationalnum1
-{
-public static void main(String l[])
-{
-Scanner s1=new Scanner(System.in);
-System.out.println("Enter the first number to find GCD");
-int number1=s1.nextInt();
-System.out.println("Enter the second number to find GCD");
-int number2=s1.nextInt();
-operation op=new operation(number1,number2);
-op.display();
-int cd=op.gcd(number1,number2);
-System.out.println("the gcd of the two numbers is"+cd);
-op.reduce(number1,number2,cd);
-do{
-System.out.println("\n\n1.ARITHMETIC OPERATIONS 2.EXIT\n\n");
-System.out.println("enter the choice");
-int choice=s1.nextInt();
-switch(choice)
-{
-case 1:
-{
-//first fraction
-System.out.println("Enter the first number");
-int a=s1.nextInt();
-System.out.println("Enter the second number");
-int b=s1.nextInt();
-System.out.println("the first rational number is "+a+"/"+b);
-//second fraction
-System.out.println("Enter the third number");
-int c=s1.nextInt();
-System.out.println("Enter the fourth number");
-int d=s1.nextInt();
-System.out.println("the second rational number is "+c+"/"+d);
-System.out.println("Enter the option\n1.add\n2.sub\n3.mul\n4.div\n");
-int e=s1.nextInt();
-//perform addition
-if(e==1)
-{
-op.add(a,b,c,d);
-}
-//perform subtraction
-if(e==2)
-{
-op.sub(a,b,c,d);
-}
-//perform multiplication
-if(e==3)
-{
-op.mul(a,b,c,d);
-}
-//perform division
-if(e==4)
-{
-op.div(a,b,c,d);
-}
-break;
-}
-default:
-{
-System.out.println("\nerror!");
-System.exit(1);
-break;
-}
-}//switch close
-}while(true);
-}//method close
-}//class close
-</pre></code>
-
-<b>Classes: </b>
-<p>
-Classes are the key component in OOP. It is a blueprint for the object. Classes describe what an object should be like. They have three fundamental aspects : 
-</p>
-
->1.Type(what the class is)
-
->2.Attributes (describes the data fields used in the class)
-
->3.Methods (describes the functions and subroutines that constitute the class behavior)
-
-<p>Several languages include predefined classes for convenience.</p>
-
-<b>Example in  Java:</b>
-<pre><code>
-public class Rectangle -------> CLASS TYPE/NAME                                         
-{
-public static void main(String args[])
-{
-      		int length, breadth,b; -------> CLASS ATTRIBUTES
-Scanner s1 = new Scanner(System.in);
-System.out.println(“Enter length”);
-Length=s1.nextInt();
-System.out.println(“Enter breadth”);
-Breadth=s1.nextInt();
-b=Area();
-System.out.println(b);
-}
-Area() -------> CLASS BEHAVIOR/METHOD
-{
-return (length*breadth);
-}}}
-
-</pre></code>
-
- 
-<p><b>Abstraction:</b></p>
-<p>
-Abstraction involves managing complexity in computer systems. It enables the user to interact with a class or a function at a higher level and suppresses unnecessary details. Essentially, the user has an interface with which he interacts with the elements and is not concerned with representation and implementation details below that interface.</p>
-
-<b>Example:</b>
-
-<p>Consider the Area method in the previous example. We can just call Rectangle.area and do not need to know the exact formula for the area. Area acts as a black box that takes in the length and the breadth and outputs the rectangle area.</p>
-
-<b>Encapsulation:
-<p>Encapsulation enables combining data and functions into a single entity. Additionally, it involves access restriction to the inner working of the class. It is roughly similar to abstraction in information hiding. It reduces dependencies and collisions between pieces of code.</p>
-
-<b>Example:</b>
-<pre><code>
-int x,y
-d = distance(x,y)
-</pre></code>
-
-<b>Inheritance:</b>
-<p>Inheritance is a means of avoiding repetition when we have several classes sharing similar behaviors. Suppose we have class p. We want to create a class c which has all the behaviors of class p and some additional ones. Then, p is called the parent class and c is called the child class. Inheritance is generally defined by “is a” relationship. A Mercedes Class inherits from a Car Class because a Mercedes is a Car. </p>
-
-<b>Polymorphism:</b>
-<p>Polymorphism implies “many forms”. It is a feature by which a single interface can be used for different purposes. Essentially, it lets us do the right thing at the right time. It is of two types: </p> 
-
->1.Compile time polymorphism
-
->2.Run time polymorphism
- 
-<b>Compile time polymorphism:</b>
-<p>It involves early binding, static binding or static linking. The object is bound to the function call at compile time. It is implemented through function and operator overloading.</p>
- 
-<b>Run time polymorphism:</b>
-<p>It involves dynamic binding or late binding. Objects of the derived class are treated as if they are the objects of base class. The function and the object are not linked till run time. It is achieved through virtual functions.</p>
 
