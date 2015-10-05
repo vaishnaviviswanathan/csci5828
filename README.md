@@ -4,5 +4,7 @@
 
 <p>We have made the same content as a single file and also as a set of pages linked to each other</p>
 
+[**Click here to access the single file**](https://github.com/vaishnaviviswanathan/csci5828/blob/master/presentation.md)
+
 [**NEXT**] (https://github.com/vaishnaviviswanathan/csci5828/blob/master/First.md)
 
