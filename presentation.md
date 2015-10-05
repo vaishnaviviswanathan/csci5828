@@ -250,7 +250,8 @@ end.
 
 <b>Object Oriented Programming Paradigm</b>
 <p>
-In Object Oriented Programming, all the behavior that we want a program to display is present in under a Class.</p> 
+In Object Oriented Programming, all the behavior that we want a program to display is present in under a Class. OOP brings programming closer to real world thinking. It has a heavy real-world emphasis and helps in building better applicationss with greater clarity, accuracy, agility, maintainability. It enables us to understand the number of people, time and other logistics required in building a software. 
+</p> 
 
 <p>Some of the most important languages which can be programmed in Object Oriented Paradigm :</p>
 
@@ -532,7 +533,7 @@ return (length*breadth);
 
 <b> Example:</b>
 
-<p>Consider the Area method in the previous example. We can just call Rectangle.area and do not need to know the exact formula for the area. Area acts as a black box that takes in the length and the breadth and outputs the rectangle area.</p>
+<p>Consider the Area method in the previous example. We can just call Rectangle.Area and do not need to know the exact formula for the area. Area acts as a black box that takes in the length and the breadth and outputs the rectangle area.</p>
 
 <p><b>(III) Encapsulation:</b></p>
 <p>Encapsulation enables combining data and functions into a single entity. Additionally, it involves access restriction to the inner working of the class. It is roughly similar to abstraction in information hiding. It reduces dependencies and collisions between pieces of code.</p>
@@ -544,7 +545,7 @@ d = distance(x,y)
 </pre></code>
 
 <p><b>(IV) Inheritance:</b></p>
-<p>Inheritance is a means of avoiding repetition when we have several classes sharing similar behaviors. Suppose we have class p. We want to create a class c which has all the behaviors of class p and some additional ones. Then, p is called the parent class and c is called the child class. Inheritance is generally defined by “is a” relationship. A Mercedes Class inherits from a Car Class because a Mercedes is a Car. </p>
+<p>Inheritance is a means of avoiding repetition when we have several classes sharing similar behaviors. Suppose we have class p. We want to create a class c which has all the behaviors of class p and some additional ones. Then, p is called the parent class and c is called the child class. Inheritance is generally defined by “is a” relationship. A Mercedes Class inherits from a Car Class because a Mercedes is a Car. Suppose we have a class Person with name and phone number as attributes. We want to create another class Student with name, phone number and Student ID as attributes. We can implement this in such a way that Student inherits from Person since name and phone number are shared attributes. Then, Student ID can be added. Here, Person is the parent class and Student is the child class. </p>
 
 <p><b>(V) Polymorphism:</b></p>
 <p>Polymorphism implies “many forms”. It is a feature by which a single interface can be used for different purposes. Essentially, it lets us do the right thing at the right time. It is of two types: </p> 
@@ -558,6 +559,19 @@ d = distance(x,y)
  
 <p><b>Run time polymorphism:</b></p>
 <p>It involves dynamic binding or late binding. Objects of the derived class are treated as if they are the objects of base class. The function and the object are not linked till run time. It is achieved through virtual functions.</p>
+
+<b>Example Snippet in Python:</b>
+<pre><code>
+n1 = 5
+n2 = 8
+t1 = Time(7,43)
+t2 = Time(7,41)
+t3 = Time(7,37)
+totalNumber = sum([n1,n2])
+totalTime = sum([t1,t2,t3])
+</pre></code>
+<p> In the above example, totalNumber returns 8 and totalTime returns 23:01:00. The sum function is polymorphic here.</p>
+
 
 <p> <b> References </b> </p>
 >1.https://en.wikipedia.org/wiki/Paradigm
@@ -597,5 +611,7 @@ d = distance(x,y)
 >18.http://www.lynda.com/Programming-tutorials/Foundations-Programming-Object-Oriented-Design/96949-2.html
 
 >19.Programming with C++ by Jude Miranda, Neebal Technologies
+
+>20.Think Python by Allen B. Downey, O' Reilly
 
 
