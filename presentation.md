@@ -66,7 +66,7 @@ FUNCTIONAL and LOGICAL PROGRAMMING PARADIGMS fall under DECLARATIVE
 PROGRAMMING paradigm.
 <p>
 
-<p style="text-align:center;font-weight:bold"><b>LOGICAL PROGRAMMING PARADIGM</b></p>
+<p style="text-align:center;font-weight:bold">LOGICAL PROGRAMMING PARADIGM</p>
 			
 <p>								
 Logic programming is a programming paradigm based on formal logic. 
@@ -509,9 +509,7 @@ break;
 }//class close
 </pre></code>
 
-
-<p><b> Some of the most important concepts in OOP are :</p></b>
-<b>[I] Classes: </b>
+<b>Classes: </b>
 <p>
 Classes are the key component in OOP. It is a blueprint for the object. Classes describe what an object should be like. They have three fundamental aspects : 
 </p>
@@ -547,7 +545,7 @@ return (length*breadth);
 </pre></code>
 
  
-<p><b> [II] Abstraction:</b></p>
+<p><b>Abstraction:</b></p>
 <p>
 Abstraction involves managing complexity in computer systems. It enables the user to interact with a class or a function at a higher level and suppresses unnecessary details. Essentially, the user has an interface with which he interacts with the elements and is not concerned with representation and implementation details below that interface.</p>
 
@@ -555,7 +553,7 @@ Abstraction involves managing complexity in computer systems. It enables the use
 
 <p>Consider the Area method in the previous example. We can just call Rectangle.area and do not need to know the exact formula for the area. Area acts as a black box that takes in the length and the breadth and outputs the rectangle area.</p>
 
-<p><b> [III] Encapsulation:</b></p>
+<p><b>Encapsulation:</b></p>
 <p>Encapsulation enables combining data and functions into a single entity. Additionally, it involves access restriction to the inner working of the class. It is roughly similar to abstraction in information hiding. It reduces dependencies and collisions between pieces of code.</p>
 
 <b>Example:</b>
@@ -564,10 +562,10 @@ int x,y
 d = distance(x,y)
 </pre></code>
 
-<p><b> [IV] Inheritance:</b></p>
+<p><b>Inheritance:</b></p>
 <p>Inheritance is a means of avoiding repetition when we have several classes sharing similar behaviors. Suppose we have class p. We want to create a class c which has all the behaviors of class p and some additional ones. Then, p is called the parent class and c is called the child class. Inheritance is generally defined by “is a” relationship. A Mercedes Class inherits from a Car Class because a Mercedes is a Car. </p>
 
-<p><b> [V] Polymorphism:</b></p>
+<p><b>Polymorphism:</b></p>
 <p>Polymorphism implies “many forms”. It is a feature by which a single interface can be used for different purposes. Essentially, it lets us do the right thing at the right time. It is of two types: </p> 
 
 >1.Compile time polymorphism
@@ -579,4 +577,46 @@ d = distance(x,y)
  
 <p><b>Run time polymorphism:</b></p>
 <p>It involves dynamic binding or late binding. Objects of the derived class are treated as if they are the objects of base class. The function and the object are not linked till run time. It is achieved through virtual functions.</p>
+
+References:
+>1.https://en.wikipedia.org/wiki/Paradigm
+
+>2.http://ethw.org/Past_programming_languages_and_their_influences_on_today's_languages_and_programming_paradigms
+
+>3.http://stackoverflow.com/questions/23277/what-is-the-difference-between-procedural-programming-and-functional-programming
+
+>4.http://stackoverflow.com/questions/552336/oop-vs-functional-programming-vs-procedural
+
+>5.http://stackoverflow.com/questions/7592505/can-you-represent-the-same-example-using-procedural-functional-logic-and-oo-pr
+
+>6.http://c2.com/cgi/wiki?LogicProgramming
+
+>7.http://latentflip.com/imperative-vs-declarative/
+
+>8.https://en.wikipedia.org/wiki/Imperative_programming#History_of_imperative_and_object-oriented_languages
+
+>9.http://stackoverflow.com/questions/602444/what-is-functional-declarative-and-imperative-programming
+
+>10.https://en.wikipedia.org/wiki/List_of_programming_languages_by_type
+
+>11.http://study.com/academy/lesson/functional-programming-and-logic-programming.html
+
+>12.http://stackoverflow.com/questions/7592505/can-you-represent-the-same-example-using-procedural-functional-logic-and-oo-pr
+
+>13.http://stackoverflow.com/questions/742341/difference-between-abstraction-and-encapsulation
+
+>14.https://en.wikipedia.org/wiki/Polymorphism_(computer_science)
+
+>15.https://simple.wikipedia.org/wiki/Inheritance_(computer_science)
+
+>16.https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)
+
+>17.https://en.wikipedia.org/wiki/Abstraction_(computer_science)
+
+>18.http://www.lynda.com/Programming-tutorials/Foundations-Programming-Object-Oriented-Design/96949-2.html
+
+>19.Programming Publications by Jude Miranda, Neebal Technologies
+
+
+
 
