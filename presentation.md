@@ -114,10 +114,10 @@ In Imperative Programming, the programmer knows the formula or the steps to be f
 
 <p>Some of the languages that use Imperativr Programming Paradigm are:  </p>        
  
-* Machine Level Languages
-* Fortran
-* ALGOL
-* BASIC
+<p> 1. Machine Level Languages</p>
+<p> 2. Fortran</p>
+<p> 3. ALGOL</p>
+<p> 4. BASIC</p>
 
 <p><b>Example in Javascript to multiply elements of an array by 2</b></p>
 
@@ -214,9 +214,9 @@ a real world problem.
 <p>Some programming languages that use Procedural Paradigm are:</p>
 
 <p> 1. Go </p>
-<p> 2.Pascal </p>
-<p> 3.Bliss </p>
-<p> 4.Blue </p>
+<p> 2. Pascal </p>
+<p> 3. Bliss </p>
+<p> 4. Blue </p>
 
 
 <b>Example in Pascal - Calculating Fibonacci series:</b>
