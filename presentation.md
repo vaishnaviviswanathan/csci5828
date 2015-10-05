@@ -1,6 +1,6 @@
 ####**PROGRAMMING PARADIGMS**
 				
-###**Team : Ashik Imran, Harini Iyer, Vaishnavi Viswanathan				
+###**Team : Ashik Imran Akbar Basha, Harini Iyer, Vaishnavi Viswanathan**				
 				
 <b>What is a Programming Paradigm?</b>
 
