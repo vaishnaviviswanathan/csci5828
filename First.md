@@ -21,3 +21,5 @@ Some of the programming paradigms which were developed over time are,
 * Object-Oriented
 * Procedural
 *  Logic
+
+There are many programming languages which supports either a single paradigm or multiple paradigms.In this presentation we discuss about the most used paradigms; Logical,Imperative,Functional,Procedural,Object-Oriented.
