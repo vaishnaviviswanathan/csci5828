@@ -260,6 +260,16 @@ Some of the programming paradigms which were developed over time are,
 * Functional
 * Object-Oriented
 * Procedural
+
+
+<p>Some languages which can be programmed in Logical Paradigm:</p>
+* Prolog
+* Datalog
+* ROOP
+* ASP
+
+
+
 <p>1.Java</p>
 
 <p>2.Python</p>
