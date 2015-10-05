@@ -511,8 +511,8 @@ break;
 </pre></code>
 
 
-<p><b> Some of the most important concepts in OOP are : </b></p>
-<b>(I) Classes: </b>
+<p> Some of the most important concepts in OOP are : </p>
+(I) Classes:
 <p>
 Classes are the key component in OOP. It is a blueprint for the object. Classes describe what an object should be like. They have three fundamental aspects : 
 </p>
@@ -552,7 +552,7 @@ return (length*breadth);
 
 <p>Abstraction involves managing complexity in computer systems. It enables the user to interact with a class or a function at a higher level and suppresses unnecessary details. Essentially, the user has an interface with which he interacts with the elements and is not concerned with representation and implementation details below that interface.</p>
 
-<b>Example:</b>
+<b> Example:</b>
 
 <p>Consider the Area method in the previous example. We can just call Rectangle.area and do not need to know the exact formula for the area. Area acts as a black box that takes in the length and the breadth and outputs the rectangle area.</p>
 
@@ -565,7 +565,7 @@ int x,y
 d = distance(x,y)
 </pre></code>
 
-<p><b> (IV) Inheritance:</b></p>
+<p>(IV) Inheritance:</p>
 <p>Inheritance is a means of avoiding repetition when we have several classes sharing similar behaviors. Suppose we have class p. We want to create a class c which has all the behaviors of class p and some additional ones. Then, p is called the parent class and c is called the child class. Inheritance is generally defined by “is a” relationship. A Mercedes Class inherits from a Car Class because a Mercedes is a Car. </p>
 
 <p>(V) Polymorphism:</p>
