@@ -1,4 +1,5 @@
-####**SOFTWARE ENGINEERING CSCI 5828 - PRESENTATION 1 : PROGRAMMING PARADIGMS**
+####**SOFTWARE ENGINEERING CSCI 5828 - PRESENTATION 1**<br>
+######**PROGRAMMING PARADIGMS**
 				
 #####**Team : Ashik Imran Akbar Basha, Harini Iyer, Vaishnavi Viswanathan**				
 				
@@ -116,18 +117,20 @@ In Imperative Programming, the programmer knows the formula or the steps to be f
 solve a problem. He instructs the program to follow those steps to get what he wants in return. 
 </p>
 
+<p>
 Languages :
 Machine level languages
 
->Fortran
+1.Fortran
 
->ALGOL
+2.ALGOL
 
->COBOL
+3.COBOL
 
->BASIC
+4.BASIC
 
->Pascal
+5.Pascal
+</p>
 
 <p>
 <b>Example in Javascript to multiply elements of an array by 2</b>
