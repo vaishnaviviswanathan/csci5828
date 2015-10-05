@@ -78,7 +78,8 @@ Logic programming works well in exhaustive searches since it involves automatic 
 </p>
 
 
-<p>Some languages which can be programmed in Logical Paradigm:</p>
+Some languages which can be programmed in Logical Paradigm:
+
 * Prolog
 * Datalog
 * ROOP
