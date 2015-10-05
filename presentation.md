@@ -66,7 +66,7 @@ Programming is an imperative programming paradigm.
 <p>
 FUNCTIONAL and LOGICAL PROGRAMMING PARADIGMS fall under DECLARATIVE 
 PROGRAMMING paradigm.
-<p>
+</p>
 
 <p style="text-align:center;font-weight:bold"><b>LOGICAL PROGRAMMING PARADIGM</b></p>
 			
@@ -114,10 +114,10 @@ In Imperative Programming, the programmer knows the formula or the steps to be f
 
 <p>Some of the languages that use Imperativr Programming Paradigm are:  </p>        
  
-<p> 1. Machine Level Languages</p>
-<p> 2. Fortran</p>
-<p> 3. ALGOL</p>
-<p> 4. BASIC</p>
+* Machine Level Languages
+* Fortran
+* ALGOL
+* BASIC
 
 <p><b>Example in Javascript to multiply elements of an array by 2</b></p>
 
