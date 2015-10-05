@@ -212,7 +212,7 @@ a real world problem.
 </p>
 
 
-<p>Some programming languages that use Procedural Paradigm are:</p>
+Some programming languages that use Procedural Paradigm are:
 
 * Go
 * Pascal
@@ -220,7 +220,7 @@ a real world problem.
 * Blue
 
 
-<b>Example in Pascal - Calculating Fibonacci series:</b>
+<p><b>Example in Pascal - Calculating Fibonacci series:</b></p>
 
 <pre><code>
 function fib(n: Integer): Integer;
