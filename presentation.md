@@ -113,21 +113,6 @@ main :-
 In Imperative Programming, the programmer knows the formula or the steps to be followed to
 solve a problem. He instructs the program to follow those steps to get what he wants in return. 
 </p>
-<p>Some of the languages that use Imperativr Programming Paradigm are:</p>
-* Milk
-* Eggs
-* Salmon
-* Butter
- 
->Machine level languages
-
->Fortran
-
->ALGOL
-
->COBOL
-
->BASIC
 
 <p>
 <b>Example in Javascript to multiply elements of an array by 2</b>
