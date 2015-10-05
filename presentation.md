@@ -569,9 +569,9 @@ d = distance(x,y)
 <p><b>(V) Polymorphism:</b></p>
 <p>Polymorphism implies “many forms”. It is a feature by which a single interface can be used for different purposes. Essentially, it lets us do the right thing at the right time. It is of two types: </p> 
 
->1.Compile time polymorphism
+1.Compile time polymorphism
 
->2.Run time polymorphism
+2.Run time polymorphism
  
 <p><b>Compile time polymorphism:</b></p>
 <p>It involves early binding, static binding or static linking. The object is bound to the function call at compile time. It is implemented through function and operator overloading.</p>
