@@ -1,4 +1,4 @@
-####**PRESENTATION 1 : PROGRAMMING PARADIGMS**
+####**PROGRAMMING PARADIGMS**
 				
 ###**Team : Ashik Imran Akbar Basha, Harini Iyer, Vaishnavi Viswanathan**				
 				
@@ -580,3 +580,44 @@ d = distance(x,y)
  
 <p>Run time polymorphism:</p>
 <p>It involves dynamic binding or late binding. Objects of the derived class are treated as if they are the objects of base class. The function and the object are not linked till run time. It is achieved through virtual functions.</p>
+
+<p> <b> References </b> </p>
+>1.https://en.wikipedia.org/wiki/Paradigm
+
+>2.http://ethw.org/Past_programming_languages_and_their_influences_on_today's_languages_and_programming_paradigms
+
+>3.http://stackoverflow.com/questions/23277/what-is-the-difference-between-procedural-programming-and-functional-programming
+
+>4.http://stackoverflow.com/questions/552336/oop-vs-functional-programming-vs-procedural
+
+>5.http://stackoverflow.com/questions/7592505/can-you-represent-the-same-example-using-procedural-functional-logic-and-oo-pr
+
+>6.http://c2.com/cgi/wiki?LogicProgramming
+
+>7.http://latentflip.com/imperative-vs-declarative/
+
+>8.https://en.wikipedia.org/wiki/Imperative_programming#History_of_imperative_and_object-oriented_languages
+
+>9.http://stackoverflow.com/questions/602444/what-is-functional-declarative-and-imperative-programming
+
+>10.https://en.wikipedia.org/wiki/List_of_programming_languages_by_type
+
+>11.http://study.com/academy/lesson/functional-programming-and-logic-programming.html
+
+>12.http://stackoverflow.com/questions/7592505/can-you-represent-the-same-example-using-procedural-functional-logic-and-oo-pr
+
+>13.http://stackoverflow.com/questions/742341/difference-between-abstraction-and-encapsulation
+
+>14.https://en.wikipedia.org/wiki/Polymorphism_(computer_science)
+
+>15.https://simple.wikipedia.org/wiki/Inheritance_(computer_science)
+
+>16.https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)
+
+>17.https://en.wikipedia.org/wiki/Abstraction_(computer_science)
+
+>18.http://www.lynda.com/Programming-tutorials/Foundations-Programming-Object-Oriented-Design/96949-2.html
+
+>19.Programming with C++ by Jude Miranda, Neebal Technologies
+
+
