@@ -213,10 +213,10 @@ a real world problem.
 
 <p>Some programming languages that use Procedural Paradigm are:</p>
 
-* Go
-* Pascal
-* Bliss
-* Blue
+<p> 1. Go </p>
+<p> 2.Pascal </p>
+<p> 3.Bliss </p>
+<p> 4.Blue </p>
 
 
 <b>Example in Pascal - Calculating Fibonacci series:</b>
@@ -252,31 +252,15 @@ end.
 <p>
 In Object Oriented Programming, all the behavior that we want a program to display is present in under a Class.</p> 
 
-<p>Some languages which can be programmed in Object Oriented Paradigm :</p>
-Some of the programming paradigms which were developed over time are,
+<p>Some of the most important languages which can be programmed in Object Oriented Paradigm :</p>
 
-* Java
-* Python
-* Functional
-* Object-Oriented
-* Procedural
+<p>1. Java</p>
 
+<p>2. Python</p>
 
-<p>Some languages which can be programmed in Logical Paradigm:</p>
-* Prolog
-* Datalog
-* ROOP
-* ASP
+<p>3. C++</p>
 
-
-
-<p>1.Java</p>
-
-<p>2.Python</p>
-
-<p>3.C++</p>
-
-<p>4.Ruby</p>
+<p>4. Ruby</p>
 
 <p><b>Example program - python to print time</b></p>
 <pre><code>
