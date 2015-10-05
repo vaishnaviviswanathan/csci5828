@@ -78,12 +78,12 @@ Logic programming works well in exhaustive searches since it involves automatic 
 </p>
 
 
-Some languages which can be programmed in Logical Paradigm:
+<p>Some languages which can be programmed in Logical Paradigm:</p>
 
-* Prolog
-* Datalog
-* ROOP
-* ASP
+*Prolog
+*Datalog
+*ROOP
+*ASP
 
 
 <p>
@@ -218,14 +218,7 @@ a real world problem.
 </p>
 
 
-Some programming languages that use Procedural Paradigm are:
-
-* ImperativeGo
-* DeclarativePascal
-* FunctionalBliss
-* Object-OrientedBlue
-* Procedural
-*  Logic
+<p>Some programming languages that use Procedural Paradigm are:</p>
 
 * Go
 * Pascal
