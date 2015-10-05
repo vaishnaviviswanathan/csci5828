@@ -1,6 +1,6 @@
 ####**PROGRAMMING PARADIGMS**
 				
-###**Team : Ashik Imran Akbar Basha, Harini Iyer, Vaishnavi Viswanathan**				
+#####**Team : Ashik Imran Akbar Basha, Harini Iyer, Vaishnavi Viswanathan**				
 				
 <b>What is a Programming Paradigm?</b>
 
@@ -308,7 +308,7 @@ print_time(time)
 </pre></code>
 
 
-<b>Object - oriented sample program in JAVA </b>
+<p>Object - oriented sample program in JAVA<p>
 
 <pre><code>
 REDUCING THE RATIONAL NUMBERS AND TO PERFORMS ARITHMETIC OPERATIONS WITH TWO RATIONAL NUMBERS
