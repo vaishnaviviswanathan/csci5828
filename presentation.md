@@ -79,12 +79,10 @@ Logic programming works well in exhaustive searches since it involves automatic 
 
 
 <p>Some languages which can be programmed in Logical Paradigm:</p>
-
-*Prolog
-*Datalog
-*ROOP
-*ASP
-
+* Prolog
+* Datalog
+* ROOP
+* ASP
 
 <p>
 Algorithms in logic programming are a combination of logic(determines solutions) and control
@@ -116,8 +114,13 @@ In Imperative Programming, the programmer knows the formula or the steps to be f
 solve a problem. He instructs the program to follow those steps to get what he wants in return. 
 </p>
 
-Languages :
-
+<p>Languages :</p>
+* Imperative
+* Declarative
+* Functional
+* Object-Oriented
+* Procedural
+*  Logic
 * Machine level languages
 * Fortran
 * ALGOL
