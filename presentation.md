@@ -1,5 +1,4 @@
-####**SOFTWARE ENGINEERING CSCI 5828 - PRESENTATION 1**<br>
-######**PROGRAMMING PARADIGMS**
+####**PRESENTATION 1 : PROGRAMMING PARADIGMS**
 				
 #####**Team : Ashik Imran Akbar Basha, Harini Iyer, Vaishnavi Viswanathan**				
 				
@@ -117,20 +116,13 @@ In Imperative Programming, the programmer knows the formula or the steps to be f
 solve a problem. He instructs the program to follow those steps to get what he wants in return. 
 </p>
 
-<p>
 Languages :
-Machine level languages
 
-1.Fortran
-
-2.ALGOL
-
-3.COBOL
-
-4.BASIC
-
-5.Pascal
-</p>
+* Machine level languages
+* Fortran
+* ALGOL
+* COBOL
+* BASIC
 
 <p>
 <b>Example in Javascript to multiply elements of an array by 2</b>
@@ -169,23 +161,17 @@ from other programming paradigms.
 Some pure functional programming languages are :
 </p>
 
->Haskell
-
->Hope
-
->Mercury
-
->Miranda
+* Haskell
+* Hope
+* Mercury
+* Miranda
 
 Some impure functional programming languages are :
 
->C#
-
->Curve
-
->Groovy
-
->Erlang
+* C#
+* Curve
+* Groovy
+* Erlang
  
 <b>Example - python</b>
 
@@ -232,15 +218,20 @@ a real world problem.
 </p>
 
 
-Programming Languages that use Procedural Paradigm are:
+Some programming languages that use Procedural Paradigm are:
 
-<p>Go</p>
+* ImperativeGo
+* DeclarativePascal
+* FunctionalBliss
+* Object-OrientedBlue
+* Procedural
+*  Logic
 
-<p>Pascal</p>
+* Go
+* Pascal
+* Bliss
+* Blue
 
-<p>Bliss </p>
-
-<p>Blue</p>
 
 <b>Example in Pascal - Calculating Fibonacci series:</b>
 
@@ -572,9 +563,9 @@ d = distance(x,y)
 <p><b>(V) Polymorphism:</b></p>
 <p>Polymorphism implies “many forms”. It is a feature by which a single interface can be used for different purposes. Essentially, it lets us do the right thing at the right time. It is of two types: </p> 
 
-1.Compile time polymorphism
+>1.Compile time polymorphism
 
-2.Run time polymorphism
+>2.Run time polymorphism
  
 <p><b>Compile time polymorphism:</b></p>
 <p>It involves early binding, static binding or static linking. The object is bound to the function call at compile time. It is implemented through function and operator overloading.</p>
