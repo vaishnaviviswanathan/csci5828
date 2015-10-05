@@ -284,7 +284,7 @@ In Object Oriented Programming, all the behavior that we want a program to displ
 
 <p>4.Ruby</p>
 
-<p><b>Example program - python to print time</p>
+<p><b>Example program - python to print time</b></p>
 <pre><code>
 def print_time(time) :
     print '(%.2d:%.2d:%.2d)' %(time.hour, time.minute, time.second)
