@@ -273,7 +273,7 @@ end.
 In Object Oriented Programming, all the behavior that we want a program to display is present in under a Class.</p> 
 
 <p>Some languages which can be programmed in Object Oriented Paradigm :</p>
-<p>
+
 <p>1.Java</p>
 
 <p>2.Python</p>
@@ -281,7 +281,7 @@ In Object Oriented Programming, all the behavior that we want a program to displ
 <p>3.C++</p>
 
 <p>4.Ruby</p>
-</p>
+
 <p><b>Example program - python to print time</p>
 <pre><code>
 def print_time(time) :
@@ -308,7 +308,6 @@ print_time(time)
 
 <b>Object - oriented sample program in JAVA </b>
 
-                   EXAMPLE PROGRAM 
 <pre><code>
 REDUCING THE RATIONAL NUMBERS AND TO PERFORMS ARITHMETIC OPERATIONS WITH TWO RATIONAL NUMBERS
 
@@ -555,7 +554,7 @@ return (length*breadth);
 
 <p>Consider the Area method in the previous example. We can just call Rectangle.area and do not need to know the exact formula for the area. Area acts as a black box that takes in the length and the breadth and outputs the rectangle area.</p>
 
-<p><b> (III) Encapsulation:</b></p>
+<p>(III) Encapsulation:</p>
 <p>Encapsulation enables combining data and functions into a single entity. Additionally, it involves access restriction to the inner working of the class. It is roughly similar to abstraction in information hiding. It reduces dependencies and collisions between pieces of code.</p>
 
 <b>Example:</b>
@@ -567,16 +566,16 @@ d = distance(x,y)
 <p><b> (IV) Inheritance:</b></p>
 <p>Inheritance is a means of avoiding repetition when we have several classes sharing similar behaviors. Suppose we have class p. We want to create a class c which has all the behaviors of class p and some additional ones. Then, p is called the parent class and c is called the child class. Inheritance is generally defined by “is a” relationship. A Mercedes Class inherits from a Car Class because a Mercedes is a Car. </p>
 
-<p><b> (V) Polymorphism:</b></p>
+<p>(V) Polymorphism:</p>
 <p>Polymorphism implies “many forms”. It is a feature by which a single interface can be used for different purposes. Essentially, it lets us do the right thing at the right time. It is of two types: </p> 
 
 >1.Compile time polymorphism
 
 >2.Run time polymorphism
  
-<p><b>Compile time polymorphism:</b></p>
+<p>Compile time polymorphism:</p>
 <p>It involves early binding, static binding or static linking. The object is bound to the function call at compile time. It is implemented through function and operator overloading.</p>
  
-<p><b>Run time polymorphism:</b></p>
+<p>Run time polymorphism:</p>
 <p>It involves dynamic binding or late binding. Objects of the derived class are treated as if they are the objects of base class. The function and the object are not linked till run time. It is achieved through virtual functions.</p>
 
