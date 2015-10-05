@@ -547,9 +547,9 @@ return (length*breadth);
 </pre></code>
 
  
-<p> <b> (II) Abstraction:</b> </p>
-<p>
-Abstraction involves managing complexity in computer systems. It enables the user to interact with a class or a function at a higher level and suppresses unnecessary details. Essentially, the user has an interface with which he interacts with the elements and is not concerned with representation and implementation details below that interface.</p>
+<p>(II) Abstraction:</p>
+
+<p>Abstraction involves managing complexity in computer systems. It enables the user to interact with a class or a function at a higher level and suppresses unnecessary details. Essentially, the user has an interface with which he interacts with the elements and is not concerned with representation and implementation details below that interface.</p>
 
 <b>Example:</b>
 
