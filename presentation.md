@@ -253,7 +253,13 @@ end.
 In Object Oriented Programming, all the behavior that we want a program to display is present in under a Class.</p> 
 
 <p>Some languages which can be programmed in Object Oriented Paradigm :</p>
+Some of the programming paradigms which were developed over time are,
 
+* Java
+* Python
+* Functional
+* Object-Oriented
+* Procedural
 <p>1.Java</p>
 
 <p>2.Python</p>
