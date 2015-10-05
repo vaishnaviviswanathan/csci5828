@@ -1,5 +1,7 @@
 ####**PROGRAMMING PARADIGMS**
 				
+###**Team : Ashik Imran, Harini Iyer, Vaishnavi Viswanathan				
+				
 <b>What is a Programming Paradigm?</b>
 
 <p>
@@ -578,4 +580,3 @@ d = distance(x,y)
  
 <p>Run time polymorphism:</p>
 <p>It involves dynamic binding or late binding. Objects of the derived class are treated as if they are the objects of base class. The function and the object are not linked till run time. It is achieved through virtual functions.</p>
-
