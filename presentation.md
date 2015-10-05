@@ -146,7 +146,7 @@ console.log(doubled) //=> [2,4,6,8,10]
 </code></pre>
 
 
-<p style="text-align:center;font-weight:bold">FUNCTIONAL PROGRAMMING PARADIGM</p>
+<p style="text-align:center;font-weight:bold"><b>FUNCTIONAL PROGRAMMING PARADIGM</b></p>
 
 <p>
 In this paradigm, a problem is divided into functions. 
@@ -229,16 +229,13 @@ a real world problem.
 </p>
 
 
-<p>Programming Languages that use Procedural Paradigm are:
-</p>
-
+<p>Programming Languages that use Procedural Paradigm are:</p>
+<pre>
 > Go
-
 > Pascal
-
 > Bliss 
-
 > Blue
+</pre>
 
 <b>Example in Pascal - calculating Fibonacci series;</b>
 
@@ -266,7 +263,6 @@ end;
 begin
   WriteLn(fib(6));
 end.
-
 </code></pre>
 
 
