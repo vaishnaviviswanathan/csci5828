@@ -80,14 +80,12 @@ Logic programming works well in exhaustive searches since it involves automatic 
 
 Some languages which can be programmed in Logical Paradigm:
 
-> Prolog
+* Prolog
+* Datalog
+* ROOP
+* ASP
 
-> ASP
 
->Datalog
-
->ROOP
- 
 <p>
 Algorithms in logic programming are a combination of logic(determines solutions) and control
 (determines alternate ways of execution)
