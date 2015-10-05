@@ -510,7 +510,7 @@ break;
 </pre></code>
 
 
-<p><b> Some of the most important concepts in OOP are :</p></b>
+<p><b> Some of the most important concepts in OOP are : </b></p>
 <b>(I) Classes: </b>
 <p>
 Classes are the key component in OOP. It is a blueprint for the object. Classes describe what an object should be like. They have three fundamental aspects : 
