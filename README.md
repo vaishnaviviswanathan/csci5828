@@ -6,5 +6,5 @@
 
 [**Click here to access the single file**](https://github.com/vaishnaviviswanathan/csci5828/blob/master/presentation.md)
 
-[**NEXT**] (https://github.com/vaishnaviviswanathan/csci5828/blob/master/First.md)
+[**Click here to access the set of pages**] (https://github.com/vaishnaviviswanathan/csci5828/blob/master/First.md)
 
