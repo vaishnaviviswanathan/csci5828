@@ -66,7 +66,7 @@ FUNCTIONAL and LOGICAL PROGRAMMING PARADIGMS fall under DECLARATIVE
 PROGRAMMING paradigm.
 <p>
 
-<p style="text-align:center;font-weight:bold">LOGICAL PROGRAMMING PARADIGM</p>
+<p style="text-align:center;font-weight:bold"><b>LOGICAL PROGRAMMING PARADIGM</b></p>
 			
 <p>								
 Logic programming is a programming paradigm based on formal logic. 
