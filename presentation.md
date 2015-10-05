@@ -512,7 +512,7 @@ break;
 
 
 <p> Some of the most important concepts in OOP are : </p>
-(I) Classes:
+<p><b>(I) Classes:</b></p>
 <p>
 Classes are the key component in OOP. It is a blueprint for the object. Classes describe what an object should be like. They have three fundamental aspects : 
 </p>
@@ -548,7 +548,7 @@ return (length*breadth);
 </pre></code>
 
  
-<p>(II) Abstraction:</p>
+<p><b>(II) Abstraction:</b></p>
 
 <p>Abstraction involves managing complexity in computer systems. It enables the user to interact with a class or a function at a higher level and suppresses unnecessary details. Essentially, the user has an interface with which he interacts with the elements and is not concerned with representation and implementation details below that interface.</p>
 
@@ -556,7 +556,7 @@ return (length*breadth);
 
 <p>Consider the Area method in the previous example. We can just call Rectangle.area and do not need to know the exact formula for the area. Area acts as a black box that takes in the length and the breadth and outputs the rectangle area.</p>
 
-<p>(III) Encapsulation:</p>
+<p><b>(III) Encapsulation:</b></p>
 <p>Encapsulation enables combining data and functions into a single entity. Additionally, it involves access restriction to the inner working of the class. It is roughly similar to abstraction in information hiding. It reduces dependencies and collisions between pieces of code.</p>
 
 <b>Example:</b>
@@ -565,20 +565,20 @@ int x,y
 d = distance(x,y)
 </pre></code>
 
-<p>(IV) Inheritance:</p>
+<p><b>(IV) Inheritance:</b></p>
 <p>Inheritance is a means of avoiding repetition when we have several classes sharing similar behaviors. Suppose we have class p. We want to create a class c which has all the behaviors of class p and some additional ones. Then, p is called the parent class and c is called the child class. Inheritance is generally defined by “is a” relationship. A Mercedes Class inherits from a Car Class because a Mercedes is a Car. </p>
 
-<p>(V) Polymorphism:</p>
+<p><b>(V) Polymorphism:</b></p>
 <p>Polymorphism implies “many forms”. It is a feature by which a single interface can be used for different purposes. Essentially, it lets us do the right thing at the right time. It is of two types: </p> 
 
 >1.Compile time polymorphism
 
 >2.Run time polymorphism
  
-<p>Compile time polymorphism:</p>
+<p><b>Compile time polymorphism:</b></p>
 <p>It involves early binding, static binding or static linking. The object is bound to the function call at compile time. It is implemented through function and operator overloading.</p>
  
-<p>Run time polymorphism:</p>
+<p><b>Run time polymorphism:</b></p>
 <p>It involves dynamic binding or late binding. Objects of the derived class are treated as if they are the objects of base class. The function and the object are not linked till run time. It is achieved through virtual functions.</p>
 
 <p> <b> References </b> </p>
