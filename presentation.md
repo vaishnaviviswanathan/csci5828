@@ -229,15 +229,15 @@ a real world problem.
 </p>
 
 
-Programming Languages that use Procedural Paradigm are:
+<p>Programming Languages that use Procedural Paradigm are:
+</p>
+> Go
 
->Go
+> Pascal
 
->Pascal
+> Bliss 
 
->Bliss 
-
->Blue
+> Blue
 
 <b>Example in Pascal - calculating Fibonacci series;</b>
 
