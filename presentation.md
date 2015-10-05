@@ -66,7 +66,7 @@ FUNCTIONAL and LOGICAL PROGRAMMING PARADIGMS fall under DECLARATIVE
 PROGRAMMING paradigm.
 <p>
 
-<p style="text-align:center;font-weight:bold">LOGICAL PROGRAMMING PARADIGM</p>
+<p style="text-align:center;font-weight:bold"><b>LOGICAL PROGRAMMING PARADIGM</b></p>
 			
 <p>								
 Logic programming is a programming paradigm based on formal logic. 
@@ -509,7 +509,9 @@ break;
 }//class close
 </pre></code>
 
-<b>Classes: </b>
+
+<p><b> Some of the most important concepts in OOP are :</p></b>
+<b>[I] Classes: </b>
 <p>
 Classes are the key component in OOP. It is a blueprint for the object. Classes describe what an object should be like. They have three fundamental aspects : 
 </p>
@@ -545,7 +547,7 @@ return (length*breadth);
 </pre></code>
 
  
-<p><b>Abstraction:</b></p>
+<p><b> [II] Abstraction:</b></p>
 <p>
 Abstraction involves managing complexity in computer systems. It enables the user to interact with a class or a function at a higher level and suppresses unnecessary details. Essentially, the user has an interface with which he interacts with the elements and is not concerned with representation and implementation details below that interface.</p>
 
@@ -553,7 +555,7 @@ Abstraction involves managing complexity in computer systems. It enables the use
 
 <p>Consider the Area method in the previous example. We can just call Rectangle.area and do not need to know the exact formula for the area. Area acts as a black box that takes in the length and the breadth and outputs the rectangle area.</p>
 
-<p><b>Encapsulation:</b></p>
+<p><b> [III] Encapsulation:</b></p>
 <p>Encapsulation enables combining data and functions into a single entity. Additionally, it involves access restriction to the inner working of the class. It is roughly similar to abstraction in information hiding. It reduces dependencies and collisions between pieces of code.</p>
 
 <b>Example:</b>
@@ -562,10 +564,10 @@ int x,y
 d = distance(x,y)
 </pre></code>
 
-<p><b>Inheritance:</b></p>
+<p><b> [IV] Inheritance:</b></p>
 <p>Inheritance is a means of avoiding repetition when we have several classes sharing similar behaviors. Suppose we have class p. We want to create a class c which has all the behaviors of class p and some additional ones. Then, p is called the parent class and c is called the child class. Inheritance is generally defined by “is a” relationship. A Mercedes Class inherits from a Car Class because a Mercedes is a Car. </p>
 
-<p><b>Polymorphism:</b></p>
+<p><b> [V] Polymorphism:</b></p>
 <p>Polymorphism implies “many forms”. It is a feature by which a single interface can be used for different purposes. Essentially, it lets us do the right thing at the right time. It is of two types: </p> 
 
 >1.Compile time polymorphism
